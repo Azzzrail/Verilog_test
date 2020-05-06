@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/burtsev/Documents/FPGA/Verilog_test/Verilog_test.sim/sim_1/impl/func/xsim/top_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Buttlon_logic
+INFO: [VRFC 10-311] analyzing module ad5662_ctrl
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/burtsev/Documents/FPGA/Verilog_test/Verilog_test.srcs/sim_1/new/test_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
