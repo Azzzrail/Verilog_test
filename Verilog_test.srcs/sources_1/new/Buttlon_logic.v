@@ -26,8 +26,8 @@ module Buttlon_logic(
     input btn1_i,
     input btn2_i,
     input btn3_i,
+    output wire [7:0] test_data_o
     //output cs_o,
-    wire [7:0] test_data_o
 
     );
 
@@ -99,12 +99,6 @@ module Buttlon_logic(
  end
 assign test_data_o = test_data;
 //assign test_data_o = test_data;
-genvar y;
-generate
-for(y = 1; y < 50; y = y + 1 )
-begin : dff_generation
 
-end
-endgenerate
 
 endmodule

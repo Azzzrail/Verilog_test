@@ -75,17 +75,6 @@ module top_tb();
   btn3_on = 1'b1;
   repeat(50000) @(posedge osc_clk);
   btn3_on = 1'b0;
- //#100000 btn1_on = ~btn1_on;
- // #600000 btn1_on = ~btn1_on;
- // #900000 btn2_on = ~btn2_on;
- // #1700000 btn2_on = ~btn2_on;
- // #1800000 btn3_on = ~btn3_on;
- // #3000000 btn3_on = ~btn3_on;
-  //    forever begin
-  //    end
-//@(posedge osc_clk)
-//    #1500 btn2_on = ~btn2_on;
-//    #7500 btn3_on = ~btn3_on;
       end
 
 
